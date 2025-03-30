@@ -1,2 +1,2 @@
-# sfstojkovic.github.io
+# stojkovics.github.io
 my personal website
