@@ -6,23 +6,27 @@ website:
   navbar:
     background: primary
     search: true
-    left:
+    right:
       - text: "Home"
         href: index.qmd
       - text: "CV"
         href: index.qmd
       - text: "Projects"
         href: index.qmd
+      - text: "Degrees & Certifications"
+        href: index.qmd
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/stojkovicstefan/
       - icon: github
         href: https://github.com/StojkovicS
-    
     #    menu:
      #     - text: Source Code
       #      href:  https://code.com # ovo je za submenu
-
+    permissions:
+        pages: write      # Allows deployment to GitHub Pages
+        id-token: write   # Enables OIDC authentication
+        actions: read     # Grants read access to actions, required for v4
 
 format:
   html:
