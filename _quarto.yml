@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "Stefan Stojkovic"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "CV"
+        href: index.qmd
+      - text: "Projects"
+        href: index.qmd
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/stojkovicstefan/
+      - icon: github
+        href: https://github.com/StojkovicS
+    
+    #    menu:
+     #     - text: Source Code
+      #      href:  https://code.com # ovo je za submenu
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
