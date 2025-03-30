@@ -1,9 +1,0 @@
-/* css styles */
-img.circular {
-  border-radius: 50%;
-  object-fit: cover; /* ensures the image covers the circle */
-}
-
-.columns .column {
-  padding: 1rem; /* adjust the value as needed */
-}
