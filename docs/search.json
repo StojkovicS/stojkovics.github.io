@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Stefan Stojkovic",
     "section": "",
-    "text": "# About me\n\nHi, I’m Stefan. Welcome to my personal website where you can find my CV, projects, and more details about my work.\nI am a Data Analyst (R | SQL | Python) with 4 years of experience in research design, as well as causal and descriptive statistics. Proficient in data analysis, research design, statistical modeling, and data visualization. I currently work (until September 30, 2025) on an international European Research Council-funded project at Witten/Herdecke University. The project is focused on political risk assessment in Europe. My job is to collect, tidy, model and transform complex data into actionable insights. I have a proven track record of enhancing project efficiency and supporting decision-making processes through data-driven consulting.\nYou can contact me at: stojkovicstefan7@gmail.com"
+    "text": "About me\n\n\nHi, I’m Stefan. Welcome to my personal website where you can find my CV, projects, and more details about my work.\nI am a Data Analyst (R | SQL | Python) with 4 years of experience in research design, as well as causal and descriptive statistics. Proficient in data analysis, research design, statistical modeling, and data visualization. I currently work (until September 30, 2025) on an international European Research Council-funded project at Witten/Herdecke University. The project is focused on political risk assessment in Europe. My job is to collect, tidy, model and transform complex data into actionable insights. I have a proven track record of enhancing project efficiency and supporting decision-making processes through data-driven consulting.\nYou can contact me at: stojkovicstefan7@gmail.com"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,12 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Curriculum Vitae\nDownload my CV\n\n\n&lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=\"CV_Stojkovic.pdf\"&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;"
   }
 ]
