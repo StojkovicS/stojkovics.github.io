@@ -25,7 +25,7 @@
     "href": "education.html",
     "title": "Further Training and Certifications",
     "section": "",
-    "text": "03/2025\n\nAzure Fundamentals - Microsoft Certified Credential ID: DF52E7938294E98C\n\n\n\n\n02/2025\n\nFoundation of Generative AI - Verified Nanodegree, Udacity (Bertelsmann Tech Booster Scholarship)\n\n\n\n\n11/2023\n\nBecome a Data Scientist - LinkedIn Certificate of Completion\n\n\n\n\n11/2023\n\nData Analyst in R - DataCamp Statement of Accomplishment\n\n\n\n\n07/2023\n\nEssex Summer School in Social Science Data Analysis: Advanced Methods for Social Media and Textual Data in R\n\n\n\n\n08/2022\n\nEssex Summer School – Machine Learning for Social Scientists\n\n\n\n\n\n\n\n2019 – 2020\n\nLeiden University, The Netherlands Master of Science in Political Science Subjects included: Methods in Political Science\n\n\n\n\n2017 – 2019\n\nCentral European University, Budapest, Hungary Master in Social Sciences with distinction Subjects included: Applied Statistics, Multivariate Statistics, Methods of Social Research\n\n\n\n\n2012 – 2016\n\nUniversity of Novi Sad, Serbia Bachelor with Honours in Psychology Subjects included: Advanced Statistics, Experimental Research, Survey Techniques"
+    "text": "ongoing\n\nProfessional Data Analyst in R and SQL - DataCamp Verified Certification\n\n\n\n\nongoing\n\nAssociate Data Scientist in Python - DataCamp Verified Certification\n\n\n\n\n03/2025\n\nAzure Fundamentals - Microsoft Certified Credential ID: DF52E7938294E98C\n\n\n\n\n02/2025\n\nFoundation of Generative AI - Verified Nanodegree, Udacity (Bertelsmann Tech Booster Scholarship)\n\n\n\n\n11/2023\n\nBecome a Data Scientist - LinkedIn Certificate of Completion\n\n\n\n\n11/2023\n\nData Analyst in R - DataCamp Statement of Accomplishment\n\n\n\n\n07/2023\n\nEssex Summer School in Social Science Data Analysis: Advanced Methods for Social Media and Textual Data in R\n\n\n\n\n08/2022\n\nEssex Summer School – Machine Learning for Social Scientists\n\n\n\n\n\n\n\n2019 – 2020\n\nLeiden University, The Netherlands Master of Science in Political Science Subjects included: Methods in Political Science\n\n\n\n\n2017 – 2019\n\nCentral European University, Budapest, Hungary Master in Social Sciences with distinction Subjects included: Applied Statistics, Multivariate Statistics, Methods of Social Research\n\n\n\n\n2012 – 2016\n\nUniversity of Novi Sad, Serbia Bachelor with Honours in Psychology Subjects included: Advanced Statistics, Experimental Research, Survey Techniques"
   },
   {
     "objectID": "education.html#education",
@@ -40,5 +40,33 @@
     "title": "Further Training and Certifications",
     "section": "",
     "text": "2019 – 2020\n\nLeiden University, The Netherlands Master of Science in Political Science Subjects included: Methods in Political Science\n\n\n\n\n2017 – 2019\n\nCentral European University, Budapest, Hungary Master in Social Sciences with distinction Subjects included: Applied Statistics, Multivariate Statistics, Methods of Social Research\n\n\n\n\n2012 – 2016\n\nUniversity of Novi Sad, Serbia Bachelor with Honours in Psychology Subjects included: Advanced Statistics, Experimental Research, Survey Techniques"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects\n\n\nFreedom vs Security\nA brief exploration of the balance between freedom and security.\nRead more"
+  },
+  {
+    "objectID": "freedom_vs_security.html",
+    "href": "freedom_vs_security.html",
+    "title": "Freedom vs Security",
+    "section": "",
+    "text": "In this project, I explore the delicate balance between freedom and security.\nUsing a dataset sourced from various public records and surveys, I analyze how people perceive these two fundamental values.\nMy analysis employs statistical methods and visualization techniques in R to uncover key insights and trends.\nFor more details, you can check out the complete code and dataset on my GitHub repository.\n\n\n\n\n\n\n\nHere, you can expand on the methodology, results, and conclusions.\nFor example, you might describe the steps taken in your R script, discuss the significance of the findings, and explain the context behind the data.\nDataset: WV7_freedom_vs_security.csv\nCode: freedom_vs_security.R"
+  },
+  {
+    "objectID": "freedom_vs_security.html#project-overview",
+    "href": "freedom_vs_security.html#project-overview",
+    "title": "Freedom vs Security",
+    "section": "",
+    "text": "In this project, I explore the delicate balance between freedom and security.\nUsing a dataset sourced from various public records and surveys, I analyze how people perceive these two fundamental values.\nMy analysis employs statistical methods and visualization techniques in R to uncover key insights and trends.\nFor more details, you can check out the complete code and dataset on my GitHub repository."
+  },
+  {
+    "objectID": "freedom_vs_security.html#detailed-analysis",
+    "href": "freedom_vs_security.html#detailed-analysis",
+    "title": "Freedom vs Security",
+    "section": "",
+    "text": "Here, you can expand on the methodology, results, and conclusions.\nFor example, you might describe the steps taken in your R script, discuss the significance of the findings, and explain the context behind the data.\nDataset: WV7_freedom_vs_security.csv\nCode: freedom_vs_security.R"
   }
 ]
