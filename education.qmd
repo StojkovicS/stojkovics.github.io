@@ -12,12 +12,31 @@ editor: visual
 
 ::::: columns
 ::: {.column width="30%"}
+**ongoing**
+:::
+
+::: {.column width="70%"}
+Professional Data Analyst in R and SQL  - DataCamp Verified Certification
+:::
+:::::
+
+::::: columns
+::: {.column width="30%"}
+**ongoing**
+:::
+
+::: {.column width="70%"}
+Associate Data Scientist in Python  - DataCamp Verified Certification
+:::
+:::::
+
+::::: columns
+::: {.column width="30%"}
 **03/2025**
 :::
 
 ::: {.column width="70%"}
-[Azure Fundamentals](https://learn.microsoft.com/en-us/users/stefanstojkovic-0247/credentials/certification/azure-fundamentals?tab=credentials-tab) - Microsoft Certified<br> 
-Credential ID: DF52E7938294E98C
+[Azure Fundamentals](https://learn.microsoft.com/en-us/users/stefanstojkovic-0247/credentials/certification/azure-fundamentals?tab=credentials-tab) - Microsoft Certified<br> Credential ID: DF52E7938294E98C
 :::
 :::::
 
@@ -79,10 +98,9 @@ Essex Summer School – [Machine Learning for Social Scientists](https://drive.g
 ::: {.column width="30%"}
 **2019 – 2020**
 :::
+
 ::: {.column width="70%"}
-**Leiden University**, The Netherlands<br>
-Master of Science in Political Science<br>
-Subjects included: **Methods in Political Science**
+**Leiden University**, The Netherlands<br> Master of Science in Political Science<br> Subjects included: **Methods in Political Science**
 :::
 :::::
 
@@ -90,10 +108,9 @@ Subjects included: **Methods in Political Science**
 ::: {.column width="30%"}
 **2017 – 2019**
 :::
+
 ::: {.column width="70%"}
-**Central European University**, Budapest, Hungary<br>
-Master in Social Sciences with distinction<br>
-Subjects included: **Applied Statistics, Multivariate Statistics, Methods of Social Research**
+**Central European University**, Budapest, Hungary<br> Master in Social Sciences with distinction<br> Subjects included: **Applied Statistics, Multivariate Statistics, Methods of Social Research**
 :::
 :::::
 
@@ -101,9 +118,8 @@ Subjects included: **Applied Statistics, Multivariate Statistics, Methods of Soc
 ::: {.column width="30%"}
 **2012 – 2016**
 :::
+
 ::: {.column width="70%"}
-**University of Novi Sad**, Serbia<br>
-Bachelor with Honours in Psychology<br>
-Subjects included: **Advanced Statistics, Experimental Research, Survey Techniques**
+**University of Novi Sad**, Serbia<br> Bachelor with Honours in Psychology<br> Subjects included: **Advanced Statistics, Experimental Research, Survey Techniques**
 :::
 :::::

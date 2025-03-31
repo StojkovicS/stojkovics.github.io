@@ -1,0 +1,12 @@
+# Projects
+
+::: {.columns}
+::: {.column width="50%"}
+**Freedom vs Security**  
+A brief exploration of the balance between freedom and security.  
+[Read more](freedom_vs_security.qmd)
+:::
+::: {.column width="50%"}
+![](plot_sec_freedom.png){width=100%}
+:::
+:::::

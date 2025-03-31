@@ -1,0 +1,37 @@
+---
+title: "Freedom vs Security"
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+editor: visual
+---
+
+# Freedom vs Security
+
+## Project Overview
+
+::::: columns
+::: {.column width="50%"}
+In this project, I explore the delicate balance between freedom and security.\
+Using a dataset sourced from various public records and surveys, I analyze how people perceive these two fundamental values.\
+My analysis employs statistical methods and visualization techniques in R to uncover key insights and trends.
+
+For more details, you can check out the complete code and dataset on my [GitHub repository](https://github.com/yourusername/freedom_security).
+:::
+
+::: {.column width="50%"}
+![](plot_sec_freedom.png){width="100%"}
+:::
+:::::
+
+## Detailed Analysis
+
+Here, you can expand on the methodology, results, and conclusions.\
+For example, you might describe the steps taken in your R script, discuss the significance of the findings, and explain the context behind the data.
+
+*Dataset:* `WV7_freedom_vs_security.csv`\
+*Code:* `freedom_vs_security.R`
+
+<!-- Optionally, you could display a larger version of the plot or add more visualizations below. -->
