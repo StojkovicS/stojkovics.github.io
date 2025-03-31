@@ -13,8 +13,8 @@ website:
         href: cv.qmd
       - text: "Projects"
         href: index.qmd
-      - text: "Degrees & Certifications"
-        href: index.qmd
+      - text: "Education"
+        href: education.qmd
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/stojkovicstefan/
