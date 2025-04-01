@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Freedom vs Security – Stefan Stojkovic</title>
+<title>freedom_vs_security – Stefan Stojkovic</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -124,8 +124,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#freedom-vs-security" id="toc-freedom-vs-security" class="nav-link active" data-scroll-target="#freedom-vs-security">Freedom vs Security</a>
   <ul class="collapse">
-  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">Project Overview</a></li>
-  <li><a href="#detailed-analysis" id="toc-detailed-analysis" class="nav-link" data-scroll-target="#detailed-analysis">Detailed Analysis</a></li>
+  <li><a href="#an-overview" id="toc-an-overview" class="nav-link" data-scroll-target="#an-overview">An Overview</a></li>
+  <li><a href="#plot" id="toc-plot" class="nav-link" data-scroll-target="#plot">Plot</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -133,47 +133,21 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Freedom vs Security</h1>
-</div>
 
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <section id="freedom-vs-security" class="level1">
 <h1>Freedom vs Security</h1>
-<section id="project-overview" class="level2">
-<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
+<section id="an-overview" class="level2">
+<h2 class="anchored" data-anchor-id="an-overview">An Overview</h2>
 <p>In this project, I explore the delicate balance between freedom and security.<br>
-Using a dataset sourced from various public records and surveys, I analyze how people perceive these two fundamental values.<br>
-My analysis employs statistical methods and visualization techniques in R to uncover key insights and trends.</p>
-<p>For more details, you can check out the complete code and dataset on my <a href="https://github.com/yourusername/freedom_security">GitHub repository</a>.</p>
-</div><div class="column" style="width:50%;">
-<p><img src="plot_sec_freedom.png" class="img-fluid" style="width:100.0%"></p>
-</div>
-</div>
+By using the World Value Survey (WVS) Wave 7, I show the difference across countries in the degree to which people prefer one of these two fundamental values. I single out the countries who score particularly high on each dimension, as well as calculate and display the EU average to understand it relative to the other cases.</p>
+<p>I used R to extract key insights from the data. For more details, you can check out the complete R code and dataset on my <a href="https://github.com/StojkovicS/freedom_security">GitHub repository</a>.</p>
 </section>
-<section id="detailed-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="detailed-analysis">Detailed Analysis</h2>
-<p>Here, you can expand on the methodology, results, and conclusions.<br>
-For example, you might describe the steps taken in your R script, discuss the significance of the findings, and explain the context behind the data.</p>
-<p><em>Dataset:</em> <code>WV7_freedom_vs_security.csv</code><br>
-<em>Code:</em> <code>freedom_vs_security.R</code></p>
-<!-- Optionally, you could display a larger version of the plot or add more visualizations below. -->
+<section id="plot" class="level2">
+<h2 class="anchored" data-anchor-id="plot">Plot</h2>
+<p><img src="plot_sec_freedom.png" class="img-fluid" style="width:100.0%"></p>
+<p>The results show that nearly 75% of people in the United States favor freedom as opposed to security. The is by far the highest figure in the dataset. By contrast, countries like China and Indonesia are on the other end Roughly 90% of citizens in these two countries report that security plays a more important role in their lives than freedom. The European Union comes in between with 60% of its citizens preferring security and some 40% freedom.</p>
 
 
 </section>

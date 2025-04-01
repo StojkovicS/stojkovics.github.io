@@ -53,14 +53,14 @@
     "href": "freedom_vs_security.html",
     "title": "Freedom vs Security",
     "section": "",
-    "text": "In this project, I explore the delicate balance between freedom and security.\nUsing a dataset sourced from various public records and surveys, I analyze how people perceive these two fundamental values.\nMy analysis employs statistical methods and visualization techniques in R to uncover key insights and trends.\nFor more details, you can check out the complete code and dataset on my GitHub repository.\n\n\n\n\n\n\n\nHere, you can expand on the methodology, results, and conclusions.\nFor example, you might describe the steps taken in your R script, discuss the significance of the findings, and explain the context behind the data.\nDataset: WV7_freedom_vs_security.csv\nCode: freedom_vs_security.R"
+    "text": "In this project, I explore the delicate balance between freedom and security.\nBy using the World Value Survey (WVS) Wave 7, I show the difference across countries in the degree to which people prefer one of these two fundamental values. I single out the countries who score particularly high on each dimension, as well as calculate and display the EU average to understand it relative to the other cases.\nI used R to extract key insights from the data. For more details, you can check out the complete R code and dataset on my GitHub repository.\n\n\n\n\nThe results show that nearly 75% of people in the United States favor freedom as opposed to security. The is by far the highest figure in the dataset. By contrast, countries like China and Indonesia are on the other end Roughly 90% of citizens in these two countries report that security plays a more important role in their lives than freedom. The European Union comes in between with 60% of its citizens preferring security and some 40% freedom."
   },
   {
     "objectID": "freedom_vs_security.html#project-overview",
     "href": "freedom_vs_security.html#project-overview",
     "title": "Freedom vs Security",
     "section": "",
-    "text": "In this project, I explore the delicate balance between freedom and security.\nUsing a dataset sourced from various public records and surveys, I analyze how people perceive these two fundamental values.\nMy analysis employs statistical methods and visualization techniques in R to uncover key insights and trends.\nFor more details, you can check out the complete code and dataset on my GitHub repository."
+    "text": "In this project, I explore the delicate balance between freedom and security.\nBy using the World Value Survey (WVS) Wave 7, I show the difference across countries in the degree to which people prefer one of these two fundamental values.\nI used R to extract key insights from the data. For more details, you can check out the complete R code and dataset on my GitHub repository."
   },
   {
     "objectID": "freedom_vs_security.html#detailed-analysis",
@@ -68,5 +68,26 @@
     "title": "Freedom vs Security",
     "section": "",
     "text": "Here, you can expand on the methodology, results, and conclusions.\nFor example, you might describe the steps taken in your R script, discuss the significance of the findings, and explain the context behind the data.\nDataset: WV7_freedom_vs_security.csv\nCode: freedom_vs_security.R"
+  },
+  {
+    "objectID": "freedom_vs_security.html#an-overview",
+    "href": "freedom_vs_security.html#an-overview",
+    "title": "Freedom vs Security",
+    "section": "",
+    "text": "In this project, I explore the delicate balance between freedom and security.\nBy using the World Value Survey (WVS) Wave 7, I show the difference across countries in the degree to which people prefer one of these two fundamental values. I single out the countries who score particularly high on each dimension, as well as calculate and display the EU average to understand it relative to the other cases.\nI used R to extract key insights from the data. For more details, you can check out the complete R code and dataset on my GitHub repository."
+  },
+  {
+    "objectID": "freedom_vs_security.html#visualization",
+    "href": "freedom_vs_security.html#visualization",
+    "title": "Freedom vs Security",
+    "section": "",
+    "text": "The results show that nearly 75% of people in the United States favor freedom as opposed to security. The is by far the highest figure in the dataset. By contrast, countries like China and Indonesia are on the other end Roughly 90% of citizens in these two countries report that security plays a more important role in their lives than freedom. The European Union comes in between with 60% of its citizens preferring security and some 40% freedom."
+  },
+  {
+    "objectID": "freedom_vs_security.html#plot",
+    "href": "freedom_vs_security.html#plot",
+    "title": "Freedom vs Security",
+    "section": "",
+    "text": "The results show that nearly 75% of people in the United States favor freedom as opposed to security. The is by far the highest figure in the dataset. By contrast, countries like China and Indonesia are on the other end Roughly 90% of citizens in these two countries report that security plays a more important role in their lives than freedom. The European Union comes in between with 60% of its citizens preferring security and some 40% freedom."
   }
 ]
