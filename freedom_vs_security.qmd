@@ -1,5 +1,5 @@
 ---
-title: "Freedom vs Security"
+title: ""
 format:
   html:
     theme: cosmo
@@ -10,28 +10,15 @@ editor: visual
 
 # Freedom vs Security
 
-## Project Overview
+## An Overview
 
-::::: columns
-::: {.column width="50%"}
-In this project, I explore the delicate balance between freedom and security.\
-Using a dataset sourced from various public records and surveys, I analyze how people perceive these two fundamental values.\
-My analysis employs statistical methods and visualization techniques in R to uncover key insights and trends.
+In this project, I explore the delicate balance between freedom and security.  
+By using the World Value Survey (WVS) Wave 7, I show the difference across countries in the degree to which people prefer one of these two fundamental values. I single out the countries who score particularly high on each dimension, as well as calculate and display the EU average to understand it relative to the other cases.
 
-For more details, you can check out the complete code and dataset on my [GitHub repository](https://github.com/yourusername/freedom_security).
-:::
+I used R to extract key insights from the data. For more details, you can check out the complete R code and dataset on my [GitHub repository](https://github.com/StojkovicS/freedom_security).
 
-::: {.column width="50%"}
+## Visualization
+
 ![](plot_sec_freedom.png){width="100%"}
-:::
-:::::
 
-## Detailed Analysis
-
-Here, you can expand on the methodology, results, and conclusions.\
-For example, you might describe the steps taken in your R script, discuss the significance of the findings, and explain the context behind the data.
-
-*Dataset:* `WV7_freedom_vs_security.csv`\
-*Code:* `freedom_vs_security.R`
-
-<!-- Optionally, you could display a larger version of the plot or add more visualizations below. -->
+The results show that nearly 75% of people in the United States favor freedom as opposed to security. The is by far the highest figure in the dataset. By contrast, countries like China and Indonesia are on the other end Roughly 90% of citizens in these two countries report that security plays a more important role in their lives than freedom. The European Union comes in between with 60% of its citizens preferring security and some 40% freedom. 
