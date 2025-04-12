@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>freedom_vs_security – Stefan Stojkovic</title>
+<title>reserves_to_govdebt – Stefan Stojkovic</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -122,10 +122,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#freedom-vs-security" id="toc-freedom-vs-security" class="nav-link active" data-scroll-target="#freedom-vs-security">Freedom vs Security</a>
+  <li><a href="#total-country-reserves-relative-to-govenrment-debt" id="toc-total-country-reserves-relative-to-govenrment-debt" class="nav-link active" data-scroll-target="#total-country-reserves-relative-to-govenrment-debt">Total Country Reserves relative to Govenrment Debt</a>
   <ul class="collapse">
   <li><a href="#an-overview" id="toc-an-overview" class="nav-link" data-scroll-target="#an-overview">An Overview</a></li>
-  <li><a href="#visualization" id="toc-visualization" class="nav-link" data-scroll-target="#visualization">Visualization</a></li>
+  <li><a href="#table-1" id="toc-table-1" class="nav-link" data-scroll-target="#table-1">Table 1</a></li>
+  <li><a href="#table-2" id="toc-table-2" class="nav-link" data-scroll-target="#table-2">Table 2</a></li>
+  <li><a href="#table-3" id="toc-table-3" class="nav-link" data-scroll-target="#table-3">Table 3</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -136,18 +138,32 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="freedom-vs-security" class="level1">
-<h1>Freedom vs Security</h1>
+<section id="total-country-reserves-relative-to-govenrment-debt" class="level1">
+<h1>Total Country Reserves relative to Govenrment Debt</h1>
 <section id="an-overview" class="level2">
 <h2 class="anchored" data-anchor-id="an-overview">An Overview</h2>
-<p>In this project, I explore the delicate balance between freedom and security.<br>
-By using the World Value Survey (WVS) Wave 7, I show the difference across countries in the degree to which people prefer one of these two fundamental values. I single out the countries who score particularly high on each dimension, as well as calculate and display the EU average to understand it relative to the other cases.</p>
-<p>I used R to extract key insights from the data. For more details, you can check out the complete R code and dataset on my <a href="https://github.com/StojkovicS/freedom_security">GitHub repository</a>.</p>
+<p>In this project, I examine the relationship between a country’s reserve holdings and its external debt using the World Bank’s International Debt Statistics. Specifically, I analyze the “Total reserves (% of total external debt)” indicator, which expresses a nation’s assets (foreign exchange and gold) as a percentage of its total external liabilities. This ratio offers a measure of external‑debt servicing capacity:</p>
+<p>High values indicate ample reserves relative to debt, signaling strong repayment ability and a buffer against external shocks. Low values suggest limited reserves, raising the risk of higher borrowing costs, rollover difficulties, or dependence on external assistance.</p>
+<p>By comparing this ratio across developing economies, the project aims to identify patterns of fiscal resilience and vulnerability.</p>
+<p>I used SQL to filter data and extract key insights from the World Bank database. For more details, you can check out the complete code and dataset on my <a href="https://github.com/StojkovicS/reserves_to_debt">GitHub repository</a>.</p>
 </section>
-<section id="visualization" class="level2">
-<h2 class="anchored" data-anchor-id="visualization">Visualization</h2>
-<p><img src="figures/plot_sec_freedom.png" class="img-fluid" style="width:100.0%"></p>
-<p>The results show that nearly 75% of people in the United States favor freedom as opposed to security. The is by far the highest figure in the dataset. By contrast, countries like China and Indonesia are on the other end Roughly 90% of citizens in these two countries report that security plays a more important role in their lives than freedom. The European Union comes in between with 60% of its citizens preferring security and some 40% freedom.</p>
+<section id="table-1" class="level2">
+<h2 class="anchored" data-anchor-id="table-1">Table 1</h2>
+<p><img src="figures/1_reserves_debt.png" class="img-fluid" style="width:100.0%"></p>
+<p>Table 1 presents the five developing countries with the highest and lowest reserves‑to‑debt ratios for 2023. Algeria (930%) and Iraq (520%) lead the list, indicating that Algeria’s reserves exceed its external debt by more than nine‑fold, and Iraq’s by over five‑fold. China also ranks among the top, with reserves covering 142.5% of its external debt—enough to fully repay its obligations and still have 42.5% left over. By contrast, Zimbabwe’s ratio is under 1%, meaning its reserves cover less than 1% of its external debt.</p>
+<p>Having very low reserves-to-debt ratio carries significant risks. Such countries may struggle to roll over maturing obligations or defend their currency during capital outflows, which can trigger higher borrowing costs, currency crises, or the need for emergency external assistance.</p>
+<p>Conversely, an excessively large buffer of reserves relative to debt is not necessarily a positive sign, at least not without reservations. While it does imply strong external liquidity, minimal rollover risk, and ample shock absorption capacity, it can also signal (1) under-investment, i.e., large passive reserves may reflect the lack of productive public investment in infrastructure, education, or health, for whatever reason, and (2) commodity Dependence - if reserves come primarily from volatile resource exports (e.g., diamonds in Botswana or oil in Gulf states), a price slump can rapidly erode such buffers.</p>
+<p>Table 2 illustrates how this played out in Botswana during the 2008–09 global financial crisis. Diamonds—accounting for 70–80% of Botswana’s export earnings—saw prices plunge by over 30%, collapsing global demand for luxury goods and triggering a dramatic drop in the reserves‑to‑debt ratio of the country in 2009. This episode underscores the risk of building reserves on a narrow, volatile base: a sudden commodity shock can rapidly deplete buffers. By contrast, China’s reserves‑to‑debt ratio has remained relatively stable throughout the years—neither excessively high nor too low—suggesting a more diversified mix of export‑driven inflows, natural resources and likely a solid reserve management. Such a profile suggests greater structural resilience against external shocks.</p>
+</section>
+<section id="table-2" class="level2">
+<h2 class="anchored" data-anchor-id="table-2">Table 2</h2>
+<p><img src="figures/2_reserves_debt.png" class="img-fluid" style="width:100.0%"></p>
+<p>Finally, Table 3 presents the “Total reserves (% of total external debt)” for available European countries, showing both the latest available year (2003) and the 2007–2023 average. Bosnia and Herzegovina tops the list, with reserves covering a substantial share of its external debt. Moreover, the average figures show that the top five countries converge around a ratio of ~40%, indicating that on average their reserves could cover roughly 40% of external liabilities. By contrast, Ukraine, Belarus, and Montenegro average only about 20% (or less), signaling greater vulnerability in meeting external obligations.</p>
+<p>These comparisons highlight how different economies vary in their external‑debt buffers—some maintain moderate resilience, while others remain at higher risk of liquidity shortfalls.</p>
+</section>
+<section id="table-3" class="level2">
+<h2 class="anchored" data-anchor-id="table-3">Table 3</h2>
+<p><img src="figures/3_reserves_debt.png" class="img-fluid" style="width:100.0%"></p>
 
 
 </section>
