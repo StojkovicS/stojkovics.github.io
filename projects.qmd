@@ -1,12 +1,24 @@
 # Projects
 
-::: {.columns}
+::::: columns
 ::: {.column width="50%"}
-**Freedom vs Security**  
-A brief exploration of the balance between freedom and security.  
+**Freedom or Security**\
+A brief exploration of the balance between freedom and security across countries.\
 [Read more](freedom_vs_security.qmd)
+
+_#R   #Data Visualization   #DataMining_ 
 :::
+
 ::: {.column width="50%"}
-![](plot_sec_freedom.png){width=100%}
+![](figures/plot_sec_freedom.png){width="100%"}
 :::
 :::::
+
+::::: columns
+::: {.column width="50%"}
+**Reserves vs External Debt**  
+An analysis of countries’ reserve buffers relative to their external debt.  
+[Read more](reserves_to_govdebt.qmd)
+
+_#SQL   #Joining Tables   #Filtering_ 
+

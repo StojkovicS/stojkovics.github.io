@@ -16,7 +16,7 @@ editor: visual
 :::
 
 ::: {.column width="70%"}
-Professional Data Analyst in R and SQL  - DataCamp Verified Certification
+Professional Data Analyst in R and SQL - DataCamp Verified Certification
 :::
 :::::
 
@@ -26,7 +26,7 @@ Professional Data Analyst in R and SQL  - DataCamp Verified Certification
 :::
 
 ::: {.column width="70%"}
-Associate Data Scientist in Python  - DataCamp Verified Certification
+Associate Data Scientist in Python - DataCamp Verified Certification
 :::
 :::::
 
@@ -36,7 +36,7 @@ Associate Data Scientist in Python  - DataCamp Verified Certification
 :::
 
 ::: {.column width="70%"}
-[Azure Fundamentals](https://learn.microsoft.com/en-us/users/stefanstojkovic-0247/credentials/certification/azure-fundamentals?tab=credentials-tab) - Microsoft Certified<br> Credential ID: DF52E7938294E98C
+[Azure Fundamentals](https://learn.microsoft.com/en-us/users/stefanstojkovic-0247/credentials/certification/azure-fundamentals?tab=credentials-tab){target="_blank"} - Microsoft Certified<br> Credential ID: DF52E7938294E98C
 :::
 :::::
 

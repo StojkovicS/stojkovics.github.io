@@ -18,8 +18,10 @@ website:
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/stojkovicstefan/
+        target: _blank
       - icon: github
         href: https://github.com/StojkovicS
+        target: _blank
     #    menu:
      #     - text: Source Code
       #      href:  https://code.com # ovo je za submenu
