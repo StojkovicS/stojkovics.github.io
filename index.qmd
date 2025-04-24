@@ -18,7 +18,7 @@ editor: visual
 ::::
 
 ::: {.column .home-text width="65%"}
-Hi, I’m Stefan—a quantitative social scientist with a passion for financial markets, politics, data, and basketball. Welcome to my website where you can find my CV, personal projects, and more details about my work and myself. 
+Hi, I’m Stefan—a quantitative social scientist with a passion for financial markets, politics, data, and basketball. Welcome to my website where you can find my CV, personal projects, and more details about my work and myself.
 
 I’ve studied in the Netherlands and Hungary, lived and worked in Serbia, and now I’m based in Germany, where I’m building my career as a data professional. Feel free to explore and get in touch!
 
