@@ -18,7 +18,8 @@ High values indicate ample reserves relative to debt, signaling strong repayment
 
 By comparing this ratio across developing economies, the project aims to identify patterns of fiscal resilience and vulnerability.
 
-I used SQL to filter data and extract key insights from the World Bank database. For more details, you can check out the complete code and dataset on my [GitHub repository](https://github.com/StojkovicS/reserves_to_debt).
+I used SQL to filter data and extract key insights from the World Bank database. For more details, you can check out the complete code and dataset on my <a href="https://github.com/StojkovicS/reserves_to_debt" target="_blank">GitHub repository</a>).
+
 
 ## Table 1
 
@@ -30,12 +31,11 @@ Having very low reserves-to-debt ratio carries significant risks. Such countries
 
 Conversely, an excessively large buffer of reserves relative to debt is not necessarily a positive sign, at least not without reservations. While it does imply strong external liquidity, minimal rollover risk, and ample shock absorption capacity, it can also signal (1) under-investment, i.e., large passive reserves may reflect the lack of productive public investment in infrastructure, education, or health, for whatever reason, and (2) commodity Dependence - if reserves come primarily from volatile resource exports (e.g., diamonds in Botswana or oil in Gulf states), a price slump can rapidly erode such buffers.
 
-Table 2 illustrates how this played out in Botswana during the 2008–09 global financial crisis. Diamonds—accounting for 70–80% of Botswana’s export earnings—saw prices plunge by over 30%, collapsing global demand for luxury goods and triggering a dramatic drop in the reserves‑to‑debt ratio of the country in 2009. This episode underscores the risk of building reserves on a narrow, volatile base: a sudden commodity shock can rapidly deplete buffers. 
-By contrast, China’s reserves‑to‑debt ratio has remained relatively stable throughout the years—neither excessively high nor too low—suggesting a more diversified mix of export‑driven inflows, natural resources and likely a solid reserve management. Such a profile suggests greater structural resilience against external shocks.
+Table 2 illustrates how this played out in Botswana during the 2008–09 global financial crisis. Diamonds—accounting for 70–80% of Botswana’s export earnings—saw prices plunge by over 30%, collapsing global demand for luxury goods and triggering a dramatic drop in the reserves‑to‑debt ratio of the country in 2009. This episode underscores the risk of building reserves on a narrow, volatile base: a sudden commodity shock can rapidly deplete buffers. By contrast, China’s reserves‑to‑debt ratio has remained relatively stable throughout the years—neither excessively high nor too low—suggesting a more diversified mix of export‑driven inflows, natural resources and likely a solid reserve management. Such a profile suggests greater structural resilience against external shocks.
 
 ## Table 2
 
-![](figures/2_reserves_debt.png){width="100%"} 
+![](figures/2_reserves_debt.png){width="100%"}
 
 Finally, Table 3 presents the “Total reserves (% of total external debt)” for available European countries, showing both the latest available year (2003) and the 2007–2023 average. Bosnia and Herzegovina tops the list, with reserves covering a substantial share of its external debt. Moreover, the average figures show that the top five countries converge around a ratio of \~40%, indicating that on average their reserves could cover roughly 40% of external liabilities. By contrast, Ukraine, Belarus, and Montenegro average only about 20% (or less), signaling greater vulnerability in meeting external obligations.
 

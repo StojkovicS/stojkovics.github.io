@@ -15,7 +15,7 @@ editor: visual
 In this project, I explore the delicate balance between freedom and security.\
 By using the World Value Survey (WVS) Wave 7, I show the difference across countries in the degree to which people prefer one of these two fundamental values. I single out the countries who score particularly high on each dimension, as well as calculate and display the EU average to understand it relative to the other cases.
 
-I used R to extract key insights from the data. For more details, you can check out the complete R code and dataset on my [GitHub repository](https://github.com/StojkovicS/freedom_security).
+I used R to extract key insights from the data. For more details, you can check out the complete R code and dataset on my <a href="https://github.com/StojkovicS/freedom_security" target="_blank">GitHub repository</a>.
 
 ## Visualization
 
