@@ -1,4 +1,4 @@
-# Projects
+# Personal Projects
 
 ::::: columns
 ::: {.column width="50%"}
@@ -21,4 +21,17 @@ An analysis of countries’ reserve buffers relative to their external debt.
 [Read more](reserves_to_govdebt.qmd)
 
 _#SQL   #Joining Tables   #Filtering_ 
+:::
+
+::: {.column width="50%"}
+:::
+:::::
+
+
+# Academic Contributions
+
+
+- Kaftan, L., Della Sala, B., Jerjomina, O., Stojkovic, S., Viganò, E. A., & Bormann, N. C. (2025). Introducing the Archive of Interwar Europe Election Data & Assemblies (AIEEDA). Scientific Data, 12(1), 630.
+
+- Stojkovic, S. (2025). Local Ethnic Demography and Ethnonationalist Voting: Evidence from Interwar Yugoslavia. Nationalism and Ethnic Politics, 31(1), 53-72.
 

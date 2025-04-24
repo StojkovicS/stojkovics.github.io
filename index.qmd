@@ -24,7 +24,7 @@ I’ve studied in the Netherlands and Hungary, lived and worked in Serbia, and n
 
 ### Professional Summary
 
-Data Analyst & Researcher (R \| SQL \| Python) with 4 years’ expertise in research design, statistical modeling, visualization and data-driven consulting. Currently (through September 30, 2025) contributing to a European Research Council–funded political risk assessment project at Witten/Herdecke University. I collect, clean, and transform complex datasets; build and validate statistical models; and document and present data‑driven insights on political and economic risks in Europe. Proven track record of streamlining workflows, boosting project efficiency, and informing strategic decision‑making through rigorous analysis.
+Data Analyst & Researcher (R \| SQL \| Python) with 4 years’ expertise in research design, statistical modeling, visualization and data-driven consulting. Currently (through September 30, 2025) contributing to a European Research Council–funded project at Witten/Herdecke University that deals with political risk assessment. <br> I collect, clean, and transform complex datasets; build and validate statistical models; document and present data‑driven insights on political and economic risks in Europe. <br> Proven track record of streamlining workflows, boosting project efficiency, and informing strategic decision‑making through rigorous analysis.
 
 You can contact me at: [stojkovicstefan7\@gmail.com](mailto:stojkovicstefan7@gmail.com)
 :::
