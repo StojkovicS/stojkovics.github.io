@@ -1,0 +1,32 @@
+/* css styles */
+img.circular {
+  border-radius: 50%;
+  object-fit: cover; /* ensures the image covers the circle */
+}
+
+
+/* Add margin to the right column */
+.column.home-text {
+  margin-left: 39px; /* Add margin to push text column away from image */
+  margin-top: 90px;  /* Keep your vertical spacing */
+}
+
+/* Other styles remain the same */
+.columns .column {
+  padding: 0.1rem; /* adjust the value as needed */
+}
+
+.navbar .active,
+.navbar a.active {
+  background-color: #353; /* Darker background */
+  color: #fff;            /* White text */
+}
+
+.navbar {
+  background-color: #698b69;  /* Adjust the hex code for your preferred mint green */
+}
+
+
+
+
+
