@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Stefan Stojkovic",
     "section": "",
-    "text": "Stefan Stojkovic Data Analyst\n\n\nHi, I’m Stefan—a quantitative social scientist with a passion for financial markets, politics, data, and basketball. Welcome to my website where you can find my CV, personal projects, and more details about my work and myself.\nI’ve studied in the Netherlands and Hungary, lived and worked in Serbia, and now I’m based in Germany, where I’m building my career as a data professional. Feel free to explore and get in touch!\n\nProfessional Summary\nData Analyst & Researcher (R | SQL | Python) with 4 years’ expertise in research design, statistical modeling, visualization and data-driven consulting. Currently (through September 30, 2025) contributing to a European Research Council–funded political risk assessment project at Witten/Herdecke University. I collect, clean, and transform complex datasets; build and validate statistical models; and document and present data‑driven insights on political and economic risks in Europe. Proven track record of streamlining workflows, boosting project efficiency, and informing strategic decision‑making through rigorous analysis.\nYou can contact me at: stojkovicstefan7@gmail.com"
+    "text": "Stefan Stojkovic Data Analyst\n\n\nHi, I’m Stefan—a quantitative social scientist with a passion for financial markets, politics, data, and basketball. Welcome to my website where you can find my CV, personal projects, and more details about my work and myself.\nI’ve studied in the Netherlands and Hungary, lived and worked in Serbia, and now I’m based in Germany, where I’m building my career as a data professional. Feel free to explore and get in touch!\n\nProfessional Summary\nData Analyst & Researcher (R | SQL | Python) with 4 years’ expertise in research design, statistical modeling, visualization and data-driven consulting. Currently (through September 30, 2025) contributing to a European Research Council–funded project at Witten/Herdecke University that deals with political risk assessment.  I collect, clean, and transform complex datasets; build and validate statistical models; document and present data‑driven insights on political and economic risks in Europe.  Proven track record of streamlining workflows, boosting project efficiency, and informing strategic decision‑making through rigorous analysis.\nYou can contact me at: stojkovicstefan7@gmail.com"
   },
   {
     "objectID": "about.html",
@@ -44,9 +44,9 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Projects",
+    "title": "Personal Projects",
     "section": "",
-    "text": "Projects\n\n\nFreedom or Security\nA brief exploration of the balance between freedom and security across countries.\nRead more\n#R #Data Visualization #DataMining\n\n\n\n\n\n\nReserves vs External Debt\nAn analysis of countries’ reserve buffers relative to their external debt.\nRead more\n#SQL #Joining Tables #Filtering"
+    "text": "Personal Projects\n\n\nFreedom or Security\nA brief exploration of the balance between freedom and security across countries.\nRead more\n#R #Data Visualization #DataMining\n\n\n\n\n\n\nReserves vs External Debt\nAn analysis of countries’ reserve buffers relative to their external debt.\nRead more\n#SQL #Joining Tables #Filtering\n\n\n\n\n\n\nAcademic Contributions\n\nKaftan, L., Della Sala, B., Jerjomina, O., Stojkovic, S., Viganò, E. A., & Bormann, N. C. (2025). Introducing the Archive of Interwar Europe Election Data & Assemblies (AIEEDA). Scientific Data, 12(1), 630.\nStojkovic, S. (2025). Local Ethnic Demography and Ethnonationalist Voting: Evidence from Interwar Yugoslavia. Nationalism and Ethnic Politics, 31(1), 53-72."
   },
   {
     "objectID": "freedom_vs_security.html",
