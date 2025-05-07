@@ -31,7 +31,7 @@ _#SQL   #Joining Tables   #Filtering_
 # Academic Contributions
 
 
-- Kaftan, L., Della Sala, B., Jerjomina, O., Stojkovic, S., Viganò, E. A., & Bormann, N. C. (2025). Introducing the Archive of Interwar Europe Election Data & Assemblies (AIEEDA). Scientific Data, 12(1), 630.
+- Kaftan, L., Della Sala, B., Jerjomina, O., **Stojkovic, S.**, Viganò, E. A., & Bormann, N. C. (2025). Introducing the Archive of Interwar Europe Election Data & Assemblies (AIEEDA). Scientific Data, 12(1), 630.
 
-- Stojkovic, S. (2025). Local Ethnic Demography and Ethnonationalist Voting: Evidence from Interwar Yugoslavia. Nationalism and Ethnic Politics, 31(1), 53-72.
+- **Stojkovic, S**. (2025). Local Ethnic Demography and Ethnonationalist Voting: Evidence from Interwar Yugoslavia. Nationalism and Ethnic Politics, 31(1), 53-72.
 

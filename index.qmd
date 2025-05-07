@@ -13,18 +13,23 @@ editor: visual
 ![](my_picture.png){.circular width="100%"}
 
 ::: {style="text-align: center; font-size: 1.1em;"}
-**Stefan Stojkovic**<br> Data Analyst
+**Stefan Stojkovic**<br> Data Scientist & Researcher
 :::
 ::::
 
 ::: {.column .home-text width="65%"}
-Hi, I’m Stefan—a quantitative social scientist with a passion for financial markets, politics, data, and basketball. Welcome to my website where you can find my CV, personal projects, and more details about my work and myself.
+### About Me
+Hi, I’m Stefan.
+I translate complex datasets into actionable insights using R, SQL, and Python. I studied in the Netherlands and Hungary, lived and worked in Serbia, and now I’m based in Germany, where I’m building my career as a data professional. Currently, I contribute to a European Research Council‑funded project (until September 30, 2025) helping policy teams anticipate political risks across Europe.
 
-I’ve studied in the Netherlands and Hungary, lived and worked in Serbia, and now I’m based in Germany, where I’m building my career as a data professional. Feel free to explore and get in touch!
+### What I bring
+- 4 years of expertise in research design, statistical modeling, visualization and data-driven consulting
+- Bridging quantitative analytics with human‑behavior insights
+- Building predictive models and streamlining workflows  
+- Communicating data‑driven strategies to boost project efficiency 
 
-### Professional Summary
+**Outside of work**, I like to talk about financial markets, politics and basketball.
 
-Data Analyst & Researcher (R \| SQL \| Python) with 4 years’ expertise in research design, statistical modeling, visualization and data-driven consulting. Currently (through September 30, 2025) contributing to a European Research Council–funded project at Witten/Herdecke University that deals with political risk assessment. <br> I collect, clean, and transform complex datasets; build and validate statistical models; document and present data‑driven insights on political and economic risks in Europe. <br> Proven track record of streamlining workflows, boosting project efficiency, and informing strategic decision‑making through rigorous analysis.
 
 You can contact me at: [stojkovicstefan7\@gmail.com](mailto:stojkovicstefan7@gmail.com)
 :::

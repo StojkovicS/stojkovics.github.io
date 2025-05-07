@@ -36,7 +36,7 @@ Associate Data Scientist in Python - DataCamp Verified Certification
 :::
 
 ::: {.column width="70%"}
-[Azure Fundamentals](https://learn.microsoft.com/en-us/users/stefanstojkovic-0247/credentials/certification/azure-fundamentals?tab=credentials-tab){target="_blank"} - Microsoft Certified<br> Credential ID: DF52E7938294E98C
+[Azure Fundamentals](https://www.linkedin.com/feed/update/urn:li:activity:7309995339002867712/){target="_blank"} - Microsoft Certified<br> Credential ID: DF52E7938294E98C
 :::
 :::::
 
@@ -46,7 +46,7 @@ Associate Data Scientist in Python - DataCamp Verified Certification
 :::
 
 ::: {.column width="70%"}
-[Foundation of Generative AI](https://www.udacity.com/certificate/e/f365d39a-b7bc-11ef-aaff-7fc1f9c2c0db) - Verified Nanodegree, Udacity (Bertelsmann Tech Booster Scholarship)
+[Foundation of Generative AI](https://www.udacity.com/certificate/e/f365d39a-b7bc-11ef-aaff-7fc1f9c2c0db){target="_blank"} - Verified Nanodegree, Udacity (Bertelsmann Tech Booster Scholarship)
 :::
 :::::
 
@@ -56,7 +56,7 @@ Associate Data Scientist in Python - DataCamp Verified Certification
 :::
 
 ::: {.column width="70%"}
-[Become a Data Scientist](https://www.linkedin.com/learning/certificates/a8cb4dcb38e682fadb35ccadec6c3854fe1390f4b34cc9c394101932e49d2a14) - LinkedIn Certificate of Completion
+[Become a Data Scientist](https://www.linkedin.com/learning/certificates/a8cb4dcb38e682fadb35ccadec6c3854fe1390f4b34cc9c394101932e49d2a14){target="_blank"} - LinkedIn Certificate of Completion
 :::
 :::::
 
@@ -86,7 +86,7 @@ Essex Summer School in Social Science Data Analysis: Advanced Methods for Social
 :::
 
 ::: {.column width="70%"}
-Essex Summer School – [Machine Learning for Social Scientists](https://drive.google.com/file/d/11XGko4Jj8TSZkHLQPGPs6GnRGzHysWOR/view)
+Essex Summer School – [Machine Learning for Social Scientists](https://drive.google.com/file/d/11XGko4Jj8TSZkHLQPGPs6GnRGzHysWOR/view){target="_blank"}
 :::
 :::::
 
