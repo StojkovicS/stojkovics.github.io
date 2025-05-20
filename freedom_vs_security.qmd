@@ -10,7 +10,7 @@ editor: visual
 
 # Freedom or Security
 
-## An Overview
+## Overview
 
 In this project, I explore the delicate balance between freedom and security.\
 By using the World Value Survey (WVS) Wave 7, I show the difference across countries in the degree to which people prefer one of these two fundamental values. I single out the countries who score particularly high on each dimension, as well as calculate and display the EU average to understand it relative to the other cases.
