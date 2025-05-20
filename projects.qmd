@@ -2,6 +2,24 @@
 
 ::::: columns
 ::: {.column width="50%"}
+**Portfolio Analysis**  
+A four-year performance analysis of a FAANG-only portfolio.\  
+[Read more](portfolio_analysis.qmd)
+
+_#Python   #pandas   #numpy   #portfolioanalysis_ 
+:::
+
+::: {.column width="50%"}
+![](figures/faang_stocks.png){width="100%"}
+
+:::
+
+::: {.column width="50%"}
+:::
+:::::
+
+::::: columns
+::: {.column width="50%"}
 **Freedom or Security**\
 A brief exploration of the balance between freedom and security across countries.\
 [Read more](freedom_vs_security.qmd)

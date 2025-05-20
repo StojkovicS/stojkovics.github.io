@@ -13,23 +13,23 @@ editor: visual
 ![](my_picture.png){.circular width="100%"}
 
 ::: {style="text-align: center; font-size: 1.1em;"}
-**Stefan Stojkovic**<br> Data Scientist & Researcher
+**Stefan Stojkovic**<br> Data Insights Specialist
 :::
 ::::
 
 ::: {.column .home-text width="65%"}
 ### About Me
-Hi, I’m Stefan.
-I translate complex datasets into actionable insights using R, SQL, and Python. I studied in the Netherlands and Hungary, lived and worked in Serbia, and now I’m based in Germany, where I’m building my career as a data professional. Currently, I contribute to a European Research Council‑funded project (until September 30, 2025) helping policy teams anticipate political risks across Europe.
+
+Hi, I’m Stefan. I translate complex datasets into actionable recommendations using R, SQL, and Python. I studied in the Netherlands and Hungary, lived and worked in Serbia, and now I’m based in Germany, where I’m building my career as a data professional. Currently, I am contributing to a 1.5 Million EUR worth European Research Council‑funded project (until September 30, 2025) helping policy teams anticipate political risks across Europe.
 
 ### What I bring
-- 4 years of expertise in research design, statistical modeling, visualization and data-driven consulting
-- Bridging quantitative analytics with human‑behavior insights
-- Building predictive models and streamlining workflows  
-- Communicating data‑driven strategies to boost project efficiency 
+
+-   Advanced analytically expertise: four years designing research studies, building statistical models and visualizations.
+-   Project management: Proven ability to manage teams, streamline workflows, and deliver data-driven solutions.
+-   Human-Centered Insights: Skilled at bridging quantitative analytics with behavioral context to translate numbers into narratives that drive strategic decisions.
+-   Communication: Experienced in crafting data-backed strategies that align with project goals and foster buy-in across diverse audiences.
 
 **Outside of work**, I like to talk about financial markets, politics and basketball.
-
 
 You can contact me at: [stojkovicstefan7\@gmail.com](mailto:stojkovicstefan7@gmail.com)
 :::
