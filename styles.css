@@ -1,49 +1,32 @@
-/* CRVENO su elementi u html-u
-
 /* css styles */
-
-/* Justify only the main "About Me" paragraph text */
-.home-text p {
-  text-align: left;
-}
-
-
 img.circular {
   border-radius: 50%;
   object-fit: cover; /* ensures the image covers the circle */
 }
 
-.columns .column {
-  padding: 0.3rem; /* adjust the value as needed */
+
+/* Add margin to the right column */
+.column.home-text {
+  margin-left: 39px; /* Add margin to push text column away from image */
+  margin-top: 90px;  /* Keep your vertical spacing */
 }
 
-/* Style the active navbar link */
+/* Other styles remain the same */
+.columns .column {
+  padding: 0.1rem; /* adjust the value as needed */
+}
+
 .navbar .active,
 .navbar a.active {
   background-color: #353; /* Darker background */
   color: #fff;            /* White text */
 }
 
-
-/* Change the navbar header background color to mint green */
 .navbar {
-  background-color: #6e8b3d;  /* Adjust the hex code for your preferred mint green */
-}
-
-/* #87a96b, #1dacd6, #cd3333, #cc5500, #5f9ea0, #a3c1ad, #2f847c, #007aa5, #39a78e
-/* #40826d, #009698, 7c9d45, 6e8b3d
-
-
-/* Custom spacing for home page text */
-.home-text {
-  margin-left: 20px; /* Adjust this value to move the text further right */
-  margin-top: 20px;  /* Adjust this value to push the text down a bit */
+  background-color: #698b69;  /* Adjust the hex code for your preferred mint green */
 }
 
 
-/* Make all text slightly larger */
-body {
-  font-size: 1.08em;   /* try 1.08em or 1.1em for a bit larger text */
-}
+
 
 
