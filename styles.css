@@ -1,6 +1,13 @@
 /* CRVENO su elementi u html-u
 
 /* css styles */
+
+/* Justify only the main "About Me" paragraph text */
+.home-text p {
+  text-align: left;
+}
+
+
 img.circular {
   border-radius: 50%;
   object-fit: cover; /* ensures the image covers the circle */
@@ -20,11 +27,11 @@ img.circular {
 
 /* Change the navbar header background color to mint green */
 .navbar {
-  background-color: #98FF98;  /* Adjust the hex code for your preferred mint green */
+  background-color: #6e8b3d;  /* Adjust the hex code for your preferred mint green */
 }
 
 /* #87a96b, #1dacd6, #cd3333, #cc5500, #5f9ea0, #a3c1ad, #2f847c, #007aa5, #39a78e
-/* #40826d, #009698
+/* #40826d, #009698, 7c9d45, 6e8b3d
 
 
 /* Custom spacing for home page text */
@@ -34,7 +41,9 @@ img.circular {
 }
 
 
-
-
+/* Make all text slightly larger */
+body {
+  font-size: 1.08em;   /* try 1.08em or 1.1em for a bit larger text */
+}
 
 
