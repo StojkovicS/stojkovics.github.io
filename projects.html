@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e2f068a489414c4f751739a113c7e8fa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
@@ -137,23 +137,34 @@ ul.task-list li input[type="checkbox"] {
 <h1>Personal Projects</h1>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>Portfolio Analysis</strong><br>
-A four-year performance analysis of a FAANG-only portfolio.&nbsp; <a href="./portfolio_analysis.html">Read more</a></p>
-<p><em>#Python #pandas #numpy #portfolioanalysis</em></p>
-</div><div class="column" style="width:50%;">
-<p><img src="figures/faang_stocks.png" class="img-fluid" style="width:100.0%"></p>
-</div><div class="column" style="width:50%;">
-
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:50%;">
 <p><strong>Freedom or Security</strong><br>
 A brief exploration of the balance between freedom and security across countries.<br>
 <a href="./freedom_vs_security.html">Read more</a></p>
 <p><em>#R #Data Visualization #DataMining</em></p>
 </div><div class="column" style="width:50%;">
 <p><img src="figures/plot_sec_freedom.png" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Portfolio Analysis</strong><br>
+A four-year performance analysis of a FAANG-only portfolio.&nbsp; <a href="./portfolio_analysis.html">Read more</a></p>
+<p><em>#Python #pandas #numpy #portfolioanalysis</em></p>
+</div><div class="column" style="width:50%;">
+<p><img src="figures/FAANG_liberationday.png" class="img-fluid" style="width:100.0%"></p>
+</div><div class="column" style="width:50%;">
+
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Sales Methods</strong><br>
+Analysis of revenue trends across three different sales strategies.&nbsp; <a href="./revenue_by_sales_method.html">Read more</a></p>
+<p><em>#RStudio #dplyr #naniar #ggplot2</em></p>
+</div><div class="column" style="width:50%;">
+<p><img src="figures/hist_rev_method.png" class="img-fluid" style="width:100.0%"></p>
+</div><div class="column" style="width:50%;">
+
 </div>
 </div>
 <div class="columns">
@@ -261,8 +272,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -373,7 +382,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
