@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>cv – Stefan Stojkovic</title>
+<title>revenue_by_sales_method – Stefan Stojkovic</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./cv.html" aria-current="page"> 
+    <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
@@ -122,7 +122,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#curriculum-vitae" id="toc-curriculum-vitae" class="nav-link active" data-scroll-target="#curriculum-vitae">Curriculum Vitae</a></li>
+  <li><a href="#revenue-by-sales-method" id="toc-revenue-by-sales-method" class="nav-link active" data-scroll-target="#revenue-by-sales-method">Revenue by Sales Method</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#data-validation" id="toc-data-validation" class="nav-link" data-scroll-target="#data-validation">Data Validation</a>
+  <ul class="collapse">
+  <li><a href="#overview-of-potenital-issues" id="toc-overview-of-potenital-issues" class="nav-link" data-scroll-target="#overview-of-potenital-issues">Overview of Potenital Issues</a></li>
+  <li><a href="#detailed-variable-checks" id="toc-detailed-variable-checks" class="nav-link" data-scroll-target="#detailed-variable-checks">Detailed Variable Checks</a></li>
+  </ul></li>
+  <li><a href="#revenue-by-sales-method-1" id="toc-revenue-by-sales-method-1" class="nav-link" data-scroll-target="#revenue-by-sales-method-1">Revenue by Sales Method</a></li>
+  <li><a href="#revenue-trends-over-time" id="toc-revenue-trends-over-time" class="nav-link" data-scroll-target="#revenue-trends-over-time">Revenue Trends Over Time</a></li>
+  <li><a href="#metric-definition" id="toc-metric-definition" class="nav-link" data-scroll-target="#metric-definition">Metric Definition</a></li>
+  <li><a href="#final-summary-and-recommendations" id="toc-final-summary-and-recommendations" class="nav-link" data-scroll-target="#final-summary-and-recommendations">Final Summary and Recommendations</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -132,15 +144,145 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="curriculum-vitae" class="level1">
-<h1>Curriculum Vitae</h1>
-<p><a href="CV_Stojkovic.pdf">Download my CV</a></p>
-<!-- Embed the PDF inline -->
-<iframe src="CV_Stojkovic.pdf" style="width:100%; height:800px;" frameborder="0">
-<p>This browser does not support PDFs. Please download the PDF to view it: <a href="CV_Stojkovic.pdf">Download PDF</a>.</p>
-</iframe>
+<section id="revenue-by-sales-method" class="level1">
+<h1>Revenue by Sales Method</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This report analyzes revenue performance for the new product line across three sales methods—Email, Call, and a Combined Email+Call strategy. It uses data from the latest six-week project period to inform these comparisons. The report is divided into four sections:</p>
+<ol type="1">
+<li><p>Data Validation: Ensures completeness and accuracy of the underlying dataset.</p></li>
+<li><p>Exploratory Analysis: Identifies the distribution of revenue and comparative performance of each sales method.</p></li>
+<li><p>Metric Recommendation: Proposes a simple KPI for ongoing monitoring.</p></li>
+<li><p>Recommendations and Conclusion: Offers actionable insights to optimize sales resource allocation.</p></li>
+</ol>
+<p>By following this framework, the analysis will equip leadership with clear, data‑driven guidance on which sales methods to prioritize moving forward.</p>
+<p>I used R to extract key insights from the data. For more details, you can check out the complete R code on my <a href="https://github.com/StojkovicS/sales_method/blob/main/analysis.R" target="_blank">GitHub repository</a>.</p>
+</section>
+<section id="data-validation" class="level2">
+<h2 class="anchored" data-anchor-id="data-validation">Data Validation</h2>
+<section id="overview-of-potenital-issues" class="level3">
+<h3 class="anchored" data-anchor-id="overview-of-potenital-issues">Overview of Potenital Issues</h3>
+<p>Missing Values</p>
+<ul>
+<li>Checked all variables for missing values: only the revenue variable contains them (1074 of 15000 records, 7.16%).</li>
+</ul>
+<p>Out‑of‑Range Values</p>
+<ul>
+<li>The years_as_customer variable has a maximum of 63, yet the company is only 41years old—indicating at least one typo in entries.</li>
+</ul>
+</section>
+<section id="detailed-variable-checks" class="level3">
+<h3 class="anchored" data-anchor-id="detailed-variable-checks">Detailed Variable Checks</h3>
+<p>In this step, I examine specific variables in greater detail—those whose potential issues may not be evident from the overall summary.</p>
+<ol type="1">
+<li>years_as_customer:</li>
+</ol>
+<ul>
+<li>Identified two customers with impossible loyalty spans (47 and 63 years).</li>
+<li>Next step: flag and verify these records, then either correct or remove.</li>
+</ul>
+<ol start="2" type="1">
+<li>sales_method</li>
+</ol>
+<ul>
+<li>Found inconsistent labeling: e.g., both “Email” and “email”, “Email+Call” and “email+call”.</li>
+<li>Next step: standardize to the following categories: “Email”, “Call”, “Email+Call”. Also convert to a factor data type for the analysis.</li>
+</ul>
+<ol start="3" type="1">
+<li>state</li>
+</ol>
+<ul>
+<li>All values conform to the expected list of U.S. states. No issues detected.</li>
+</ul>
+<ol start="4" type="1">
+<li>customer_id</li>
+</ol>
+<ul>
+<li>All values are unique; no duplicate IDs present.</li>
+</ul>
+</section>
+</section>
+<section id="revenue-by-sales-method-1" class="level2">
+<h2 class="anchored" data-anchor-id="revenue-by-sales-method-1">Revenue by Sales Method</h2>
+<p>To assess how revenue varies across methods, I generate a histogram highlighting distributions of revenue brought in by individual sales methods (Figure 3). I also generate a boxplot to highlight outliers (Figure 4). Summary statistics by sales method are as follows:</p>
+<ol type="1">
+<li>Call</li>
+</ol>
+<ul>
+<li>Range: 32–71 dollars</li>
+<li>Mean: 48</li>
+<li>IQR: 11 (tight spread)</li>
+<li>Conclusion: Call deals are modest and predictable, with only a few high‑end outliers (Figure 4).</li>
+</ul>
+<ol start="2" type="1">
+<li>Email</li>
+</ol>
+<ul>
+<li>Range: 79–149 dollars</li>
+<li>Mean: 97</li>
+<li>IQR: 16 (moderately wider than Call)</li>
+<li>Conclusion: Email generates higher average revenue and occasional very large deals, indicating more upside potential.</li>
+</ul>
+<ol start="3" type="1">
+<li>Emai+Call</li>
+</ol>
+<ul>
+<li>Range: 122–238 dollars</li>
+<li>Mean: 184</li>
+<li>IQR: 13</li>
+<li>Conclusion: This combined approach nearly doubles Email revenue and quadruples Call revenue on average. It also exhibits both low‑end and high‑end outliers, suggesting variable performance that can both under‑ and over‑deliver relative to its mean.</li>
+</ul>
+<p>Statistical validation: I also conduct a one-way ANOVA and subsequent Tukey HSD post-hoc tests on individual revenues by sales method. All pairwise differences are statistically significant:</p>
+<ul>
+<li>Email+Call outperforms Email‑only and Call‑only (p&lt;0.001).</li>
+<li>Email‑only also generates significantly more revenue than Call‑only (p&lt;0.001).</li>
+</ul>
+<p>These results confirm the descriptive findings. Note, however, that this analysis does not factor in varying time investments per sales method—see the metric definition section for an efficiency‑adjusted metric.</p>
+<p><img src="figures/hist_rev_method.png" class="img-fluid" style="width:100.0%"> <img src="figures/dif_in_revenue.png" class="img-fluid" style="width:100.0%"></p>
+</section>
+<section id="revenue-trends-over-time" class="level2">
+<h2 class="anchored" data-anchor-id="revenue-trends-over-time">Revenue Trends Over Time</h2>
+<p>To assess how revenue evolves over time for each sales method, I plot a grouped line chart showing average revenue per week across the six-week project duration (Figure 5). As Figure 5 demonstrates, all three methods show a steady upward trend, with only a minor dip between Weeks 2 and 3. Notably, Email+Call shows a steeper increase than the other two methods.</p>
+<p>Summary of trends:</p>
+<ul>
+<li>Call: rises from approx. 35 to 65 dollars (+30)</li>
+<li>Email: grows from approx. 95 to 129 (+34)</li>
+<li>Email+Call: grows from approx. 135 to 225 (+90)</li>
+</ul>
+<p>The Email+Call method not only starts and ends at the highest revenue levels, but also delivers the largest absolute gain. This demonstrates the value of combining email with a brief (10‑minute) follow-up call—an approach that appears to compound its effect as the campaign progresses.</p>
+<p><img src="figures/rev_over_time.png" class="img-fluid" style="width:100.0%"></p>
+</section>
+<section id="metric-definition" class="level2">
+<h2 class="anchored" data-anchor-id="metric-definition">Metric Definition</h2>
+<p>I propose the team to track the Revenue-Per-Minute(RPM) Efficiency metric. This metric is intuitive, easily comparable over time and accounts for resource allocation and efficiency.</p>
+<ul>
+<li>Metric definition: Revenue-Per-Minute (RPM) = Average Revenue/Average Team Time per Customer for each sales method (minutes).</li>
+<li>How to use it:
+<ul>
+<li>Each week (or month), re‑compute RPM for each method (or just Email and Email+Call, if the Call-only is retired, see recommendations) using the same formula, to reassess method profitability.</li>
+<li>Plot the results over time to revisit resource allocation.</li>
+<li>Set an internal target (e.g., maintain RPM ≥18 dollars/min for Email+Call) and trigger a review if it falls more than 10% below baseline.</li>
+</ul></li>
+</ul>
+<p>Based on the current data, I already estimated initial values of the metric for each sales method:</p>
+<ul>
+<li>Call only: On average brings in 47.70 dollars and costs ~30 min/customer, yielding $1.59 per minute.</li>
+<li>Email only: On average brings in 97.00 dollars, costs ~2.5 min/email, yielding $38.80 per minute. Very high return on investment (ROI).</li>
+<li>Email+Call: On average brings in 184.00 dollars, costs ~10 min/customer, yielding $18.40 per minute.</li>
+</ul>
+</section>
+<section id="final-summary-and-recommendations" class="level2">
+<h2 class="anchored" data-anchor-id="final-summary-and-recommendations">Final Summary and Recommendations</h2>
+<p>The analysis shows that—while all methods grow revenue—Email+Call delivers the highest absolute returns, and Email only offers exceptional efficiency at scale. In contrast, Call only is both time‑intensive and low‑yield.</p>
+<p>Recommendations:</p>
+<ol type="1">
+<li>Retire “Call only.” Its $1.6/min ROI is the weakest, requiring 30 minutes for just 47.7 dollars.</li>
+<li>Default to “Email only.” Two quick emails generate nearly 100 dollars with virtually no manual effort (~$38.8/min).</li>
+<li>Deploy “Email+Call” selectively for high‑potential deals. A brief 10‑minute call on top of an email nearly doubles revenue (to 184 dollars) while maintaining strong efficiency (~$18.4/min).</li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
