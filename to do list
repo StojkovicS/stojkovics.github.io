@@ -1,5 +1,23 @@
 
 
 
-- U PROJEKTIMA LINKovi KA GITHUB project repositories NE VODE U NOVI TAB (PROVERI SIMPLY SVE LINKOVE)
+- HOW TO SIMPLY AND QUICKLYAPPLY CHANGES:
+    - promeni u qmd fileovima sta hoces (npr u individualnom projektu)
+    - klikni RENDER - this is a MUST, so that the change is reflected in the _site folder
+    - upload that file from the _site folder into main github repository for my website
 
+
+########################################################################################################################################
+########################################################################################################################################
+
+
+Ovo su boje koje ja koristim u css file
+- .navbar .active,
+.navbar a.active {
+  background-color: #353; /* Darker background */
+  color: #fff;            /* White text */
+}
+
+.navbar {
+  background-color: #698b69;  /* Adjust the hex code for your preferred mint green */
+}

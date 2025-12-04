@@ -13,24 +13,40 @@ editor: visual
 ![](my_picture.png){.circular width="100%"}
 
 ::: {style="text-align: center; font-size: 1.1em;"}
-**Stefan Stojkovic**
+**Stefan Stojkovic**  
+Data Scientist
+
+[Download CV (DE)](CV_Stojkovic.pdf)
+
+
+**Featured Project:** [Employee Turnover: ML classification](https://github.com/StojkovicS/employee_turnover){target="_blank"}  
+`Snapshot:` Deployed 2 ML models with ~92% recall on test set; reproducible notebook in the repo.
+
+![](chu.png){width="90%" style="border-radius:8px; margin-top:0.7rem;"}
+
 :::
 ::::
 
 ::: {.column .home-text width="65%"}
 ### About Me
 
-Hi, I’m Stefan. I translate complex data into actionable recommendations using R, SQL, and Python. I studied in the Netherlands and Hungary, lived and worked in Serbia, and now I’m based in Germany, where I’m building my career as a data professional. Currently, I am contributing to European Research Council‑funded project (until January 30, 2026) helping policy teams anticipate political risks in Europe.
+Hi, I’m Stefan. I turn messy political, economic and financial data into reproducible analyses and actionable recommendations using R, Python and SQL. I studied in the Netherlands and Hungary, worked in Serbia, and am based in Germany. I currently contribute to a European Research Council-funded research project on political risk (contract through Jan 30, 2026).
+
+My focus: reproducible workflows, causal & predictive analysis, and clear stakeholder communication. I target roles in data science, policy analytics, or quantitative risk analysis.
 
 ### What I bring
 
--   KPI-driven mindset: four years of experience designing research and translating insights into impactful outcomes.
--   Strong skills in data analysis, interpretation and visualization.
--   Project management: experience managing research projects and mentoring team member.
--   Excellent interpersonal skills and the ability to present to different audiences.
+- KPI-driven mindset: 4+ years designing studies, feature engineering and translating results into operational recommendations.
+
+- Reproducible workflows: R/Python pipelines, documented scripts, notebooks, and Shiny apps for standardized data collection.
+
+- Technical stack: R (tidyverse, shiny), Python (pandas, sklearn), SQL, GitHub; Microsoft Azure and GenAI fundamentals, familiar with PyTorch & Hugging Face.
+
+- Project management & mentoring: led small research teams and trained research assistants to reproducible practices.
 
 **Outside of work**, I like to talk about financial markets, politics and basketball.
 
-You can contact me at: [stojkovicstefan7\@gmail.com](mailto:stojkovicstefan7@gmail.com)
+You can contact me at: [stojkovicstefan7\@gmail.com](mailto:stojkovicstefan7@gmail.com)  
+Or via [LinkedIn](https://www.linkedin.com/in/stojkovicstefan/){target="_blank"}
 :::
 ::::::

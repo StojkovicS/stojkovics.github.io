@@ -60,7 +60,7 @@ The point where a line from the risk-free rate is tangent to the frontier maximi
 -   Weights: AAPL 78.7%, AMZN 0%, GOOGL 19.97%, META 0%, NFLX 1.3%
 -   Sharpe Ratio: \~0.89, the highest risk-adjusted payoff among FAANG mixes.
 
-This is the portfolio of FAANG stocks that would produce the most attractive trade-off of extra return per unit of risk. The figure 0.89 stands for excess return for every 1% of risk. Such return is modest, i.e., would yield less then one-to-one payoff which is not ideal but understandable given that it is composed of tech-heavy stocks only.
+This FAANG portfolio maximizes return per unit of risk (highest Sharpe). The figure 0.89 stands for excess return for every 1% of risk. Such return is modest, i.e., would yield less then one-to-one payoff which is not ideal but understandable given that it is composed of tech-heavy stocks only.
 
 ## Step 3: Liberation Day Event Impact
 

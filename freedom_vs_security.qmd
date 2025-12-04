@@ -21,4 +21,4 @@ I used R to extract key insights from the data. For more details, you can check 
 
 ![](figures/plot_sec_freedom.png){width="100%"}
 
-The results show that nearly 75% of people in the United States favor freedom as opposed to security. The is by far the highest figure in the dataset. By contrast, countries like China and Indonesia are on the other end Roughly 90% of citizens in these two countries report that security plays a more important role in their lives than freedom. The European Union comes in between with 60% of its citizens preferring security and some 40% freedom.
+The results show that nearly 75% of people in the United States favor freedom over security. The is by far the highest figure in the dataset. By contrast, countries like China and Indonesia are on the other end Roughly 90% of citizens in these two countries report that security plays a more important role in their lives than freedom. The European Union comes in between with 60% of its citizens preferring security and some 40% freedom.

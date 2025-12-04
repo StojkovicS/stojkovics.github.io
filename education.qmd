@@ -17,7 +17,6 @@ editor: visual
 
 ::: {.column width="70%"}
 Google Advanced Data Analytics Professional Certificate
-
 :::
 :::::
 

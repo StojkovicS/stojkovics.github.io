@@ -2,24 +2,8 @@
 
 ::::: columns
 ::: {.column width="50%"}
-**Portfolio Analysis**  
-A four-year performance analysis of a FAANG-only portfolio.\  
-[Read more](portfolio_analysis.qmd)
 
-_#Python   #pandas   #numpy   #portfolioanalysis_ 
-:::
 
-::: {.column width="50%"}
-![](figures/faang_stocks.png){width="100%"}
-
-:::
-
-::: {.column width="50%"}
-:::
-:::::
-
-::::: columns
-::: {.column width="50%"}
 **Freedom or Security**\
 A brief exploration of the balance between freedom and security across countries.\
 [Read more](freedom_vs_security.qmd)
@@ -34,6 +18,46 @@ _#R   #Data Visualization   #DataMining_
 
 ::::: columns
 ::: {.column width="50%"}
+
+**Portfolio Analysis**  
+A four-year performance analysis of a FAANG-only portfolio.\  
+[Read more](portfolio_analysis.qmd)
+
+_#Python   #pandas   #numpy   #portfolioanalysis_ 
+:::
+
+::: {.column width="50%"}
+![](figures/FAANG_liberationday.png){width="100%"}
+
+:::
+
+::: {.column width="50%"}
+:::
+:::::
+
+::::: columns
+::: {.column width="50%"}
+
+**Sales Methods**  
+Analysis of revenue trends across three different sales strategies.\  
+[Read more](revenue_by_sales_method.qmd)
+
+_#RStudio   #dplyr   #naniar   #ggplot2_ 
+:::
+
+::: {.column width="50%"}
+![](figures/hist_rev_method.png){width="100%"}
+
+
+:::
+
+::: {.column width="50%"}
+:::
+:::::
+
+::::: columns
+::: {.column width="50%"}
+
 **Reserves vs External Debt**  
 An analysis of countries’ reserve buffers relative to their external debt.  
 [Read more](reserves_to_govdebt.qmd)
