@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>projects – Stefan Stojkovic</title>
+<title>waze_userchurn – Stefan Stojkovic</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -97,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -122,8 +122,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#personal-projects" id="toc-personal-projects" class="nav-link active" data-scroll-target="#personal-projects">Personal Projects</a></li>
-  <li><a href="#academic-contributions" id="toc-academic-contributions" class="nav-link" data-scroll-target="#academic-contributions">Academic Contributions</a></li>
+  <li><a href="#user-churn-analysis" id="toc-user-churn-analysis" class="nav-link active" data-scroll-target="#user-churn-analysis">User Churn Analysis</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#business-context" id="toc-business-context" class="nav-link" data-scroll-target="#business-context">Business Context</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#modeling-and-evaluation" id="toc-modeling-and-evaluation" class="nav-link" data-scroll-target="#modeling-and-evaluation">Modeling and Evaluation</a></li>
+  <li><a href="#feature-importance-key-drivers" id="toc-feature-importance-key-drivers" class="nav-link" data-scroll-target="#feature-importance-key-drivers">Feature Importance / Key Drivers</a></li>
+  <li><a href="#conclusion-and-limitations" id="toc-conclusion-and-limitations" class="nav-link" data-scroll-target="#conclusion-and-limitations">Conclusion and Limitations</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -133,70 +140,43 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="personal-projects" class="level1">
-<h1>Personal Projects</h1>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>User Churn</strong><br>
-The goal of this project is to predict monthly user churn for the Waze driving app.<br>
-<a href="./waze_userchurn.html">Read more</a></p>
-<p><em>#Jupyter Notebook #Python #Machine Learning</em></p>
-</div><div class="column" style="width:50%;">
-<p><img src="figures/heatmap.png" class="img-fluid" style="width:100.0%"></p>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Freedom or Security</strong><br>
-A brief exploration of the balance between freedom and security across countries.<br>
-<a href="./freedom_vs_security.html">Read more</a></p>
-<p><em>#R #Data Visualization #DataMining</em></p>
-</div><div class="column" style="width:50%;">
-<p><img src="figures/plot_sec_freedom.png" class="img-fluid" style="width:100.0%"></p>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Portfolio Analysis</strong><br>
-A four-year performance analysis of a FAANG-only portfolio.&nbsp; <a href="./portfolio_analysis.html">Read more</a></p>
-<p><em>#Python #pandas #numpy #portfolioanalysis</em></p>
-</div><div class="column" style="width:50%;">
-<p><img src="figures/FAANG_liberationday.png" class="img-fluid" style="width:100.0%"></p>
-</div><div class="column" style="width:50%;">
-
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Sales Methods</strong><br>
-Analysis of revenue trends across three different sales strategies.&nbsp; <a href="./revenue_by_sales_method.html">Read more</a></p>
-<p><em>#RStudio #dplyr #naniar #ggplot2</em></p>
-</div><div class="column" style="width:50%;">
-<p><img src="figures/hist_rev_method.png" class="img-fluid" style="width:100.0%"></p>
-</div><div class="column" style="width:50%;">
-
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Reserves vs External Debt</strong><br>
-An analysis of countries’ reserve buffers relative to their external debt.<br>
-<a href="./reserves_to_govdebt.html">Read more</a></p>
-<p><em>#SQL #Joining Tables #Filtering</em></p>
-</div><div class="column" style="width:50%;">
-
-</div>
-</div>
+<section id="user-churn-analysis" class="level1">
+<h1>User Churn Analysis</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>The goal of this project is to predict monthly user churn for the Waze driving app (users who uninstall or stop using the app) and to identify the features that best separate churners from retained users. The analysis compares Random Forest and XGBoost classifiers trained on a number of collected and engineered features. The XGBoost model fit the data better than the Random Forest and achieves an improved recall, while maintaining similar accuracy and precision.</p>
+<p>See the full code and dataset in my <a href="https://github.com/StojkovicS/app_userchurn" target="_blank">GitHub repository</a>.</p>
 </section>
-<section id="academic-contributions" class="level1">
-<h1>Academic Contributions</h1>
-<ul>
-<li><p>Kaftan, L., Della Sala, B., Jerjomina, O., <strong>Stojkovic, S.</strong>, Viganò, E. A., &amp; Bormann, N. C. (2025). Introducing the Archive of Interwar Europe Election Data &amp; Assemblies (AIEEDA). Scientific Data, 12(1), 630.</p></li>
-<li><p><strong>Stojkovic, S</strong>. (2025). Local Ethnic Demography and Ethnonationalist Voting: Evidence from Interwar Yugoslavia. Nationalism and Ethnic Politics, 31(1), 53-72.</p></li>
-<li><p>Viganò, E. A., Della Sala, B., <strong>Stojkovic, S</strong>., &amp; Bormann, N. C. Political Violence and Anti-System Voting in Interwar Italy.</p></li>
-</ul>
+<section id="business-context" class="level2">
+<h2 class="anchored" data-anchor-id="business-context">Business Context</h2>
+<p>Churn directly reduces active-user counts and growth. The Waze stakeholders want a model that flags users at risk of churning so the product team can test retention interventions (targeted messaging, incentives, product improvements, etc.). The project aims to produce both a predictive model and actionable feature insights that inform product decisions and prioritization.</p>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>Source &amp; scope: Raw usage logs from the Waze app (session counts, drive summaries, timestamps, app interactions). Exact labels and extraction steps are documented in the jupyter notebook.</p>
+<p>Samples &amp; features: The notebook builds several engineered features. Six engineered features appear among the top-10 most important onces for the targer: km_per_hour, percent_sessions_in_last_month, total_sessions_per_day, percent_of_drives_to_favorite, km_per_drive, km_per_driving_day. These engineered aggregates substantially improved signal compared to raw columns.</p>
+</section>
+<section id="modeling-and-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="modeling-and-evaluation">Modeling and Evaluation</h2>
+<p>Models trained:</p>
+<ol type="1">
+<li>Random Forest (baseline ensemble)</li>
+<li>XGBoost (final / champion model) Both models were compared via the validation set and then evaluated on the held-out test set.</li>
+</ol>
+<p>Why ensembles were chosen: Tree ensembles require less heavy preprocessing than a logistic-regression. However, they are less interpretable, so feature engineering + model-agnostic interpretation tools were used to understand what matters most. The resulting classification is not great, but it is clerly better than what was found in simple regression models.</p>
+<p><img src="figures/cm_frontier.png" class="img-fluid" style="width:100.0%"></p>
+</section>
+<section id="feature-importance-key-drivers" class="level2">
+<h2 class="anchored" data-anchor-id="feature-importance-key-drivers">Feature Importance / Key Drivers</h2>
+<p>Engineered features dominate the top-10 importance list (6 of the top 10). The single-most valuable signals come from km driven, session frequency, drives to favorite locations. It is advised to use these these as starting points for targeted product interventions.</p>
+<p><img src="figures/feature_importance.png" class="img-fluid" style="width:100.0%"></p>
+</section>
+<section id="conclusion-and-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-and-limitations">Conclusion and Limitations</h2>
+<p>Ensemble tree models (XGBoost) improved detection of churn over logistic regression (conducted earlier) and highlighted useful engineered features. However, current data is insufficient to consistently predict churn at high recall or precision. Richer drive-level data and more granular interaction information are likely required to reach actionable performance. Recommendations are to collect more detailed per-drive information (drive times, geo-locations, in-app interactions) and to re-examine thee analyses.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

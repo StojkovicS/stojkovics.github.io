@@ -46,7 +46,7 @@
     "href": "projects.html",
     "title": "Personal Projects",
     "section": "",
-    "text": "Personal Projects\n\n\nFreedom or Security\nA brief exploration of the balance between freedom and security across countries.\nRead more\n#R #Data Visualization #DataMining\n\n\n\n\n\n\nPortfolio Analysis\nA four-year performance analysis of a FAANG-only portfolio.  Read more\n#Python #pandas #numpy #portfolioanalysis\n\n\n\n\n\n\n\n\nSales Methods\nAnalysis of revenue trends across three different sales strategies.  Read more\n#RStudio #dplyr #naniar #ggplot2\n\n\n\n\n\n\n\n\nReserves vs External Debt\nAn analysis of countries’ reserve buffers relative to their external debt.\nRead more\n#SQL #Joining Tables #Filtering\n\n\n\n\n\n\nAcademic Contributions\n\nKaftan, L., Della Sala, B., Jerjomina, O., Stojkovic, S., Viganò, E. A., & Bormann, N. C. (2025). Introducing the Archive of Interwar Europe Election Data & Assemblies (AIEEDA). Scientific Data, 12(1), 630.\nStojkovic, S. (2025). Local Ethnic Demography and Ethnonationalist Voting: Evidence from Interwar Yugoslavia. Nationalism and Ethnic Politics, 31(1), 53-72.\nViganò, E. A., Della Sala, B., Stojkovic, S., & Bormann, N. C. Political Violence and Anti-System Voting in Interwar Italy."
+    "text": "Personal Projects\n\n\nUser Churn\nThe goal of this project is to predict monthly user churn for the Waze driving app.\nRead more\n#Jupyter Notebook #Python #Machine Learning\n\n\n\n\n\n\nFreedom or Security\nA brief exploration of the balance between freedom and security across countries.\nRead more\n#R #Data Visualization #DataMining\n\n\n\n\n\n\nPortfolio Analysis\nA four-year performance analysis of a FAANG-only portfolio.  Read more\n#Python #pandas #numpy #portfolioanalysis\n\n\n\n\n\n\n\n\nSales Methods\nAnalysis of revenue trends across three different sales strategies.  Read more\n#RStudio #dplyr #naniar #ggplot2\n\n\n\n\n\n\n\n\nReserves vs External Debt\nAn analysis of countries’ reserve buffers relative to their external debt.\nRead more\n#SQL #Joining Tables #Filtering\n\n\n\n\n\n\nAcademic Contributions\n\nKaftan, L., Della Sala, B., Jerjomina, O., Stojkovic, S., Viganò, E. A., & Bormann, N. C. (2025). Introducing the Archive of Interwar Europe Election Data & Assemblies (AIEEDA). Scientific Data, 12(1), 630.\nStojkovic, S. (2025). Local Ethnic Demography and Ethnonationalist Voting: Evidence from Interwar Yugoslavia. Nationalism and Ethnic Politics, 31(1), 53-72.\nViganò, E. A., Della Sala, B., Stojkovic, S., & Bormann, N. C. Political Violence and Anti-System Voting in Interwar Italy."
   },
   {
     "objectID": "freedom_vs_security.html",
@@ -292,5 +292,54 @@
     "title": "Revenue by Sales Method",
     "section": "",
     "text": "The analysis shows that—while all methods grow revenue—Email+Call delivers the highest absolute returns, and Email only offers exceptional efficiency at scale. In contrast, Call only is both time‑intensive and low‑yield.\nRecommendations:\n\nRetire “Call only.” Its $1.6/min ROI is the weakest, requiring 30 minutes for just 47.7 dollars.\nDefault to “Email only.” Two quick emails generate nearly 100 dollars with virtually no manual effort (~$38.8/min).\nDeploy “Email+Call” selectively for high‑potential deals. A brief 10‑minute call on top of an email nearly doubles revenue (to 184 dollars) while maintaining strong efficiency (~$18.4/min)."
+  },
+  {
+    "objectID": "waze_userchurn.html",
+    "href": "waze_userchurn.html",
+    "title": "User Churn Analysis",
+    "section": "",
+    "text": "The goal of this project is to predict monthly user churn for the Waze driving app (users who uninstall or stop using the app) and to identify the features that best separate churners from retained users. The analysis compares Random Forest and XGBoost classifiers trained on a number of collected and engineered features. The XGBoost model fit the data better than the Random Forest and achieves an improved recall, while maintaining similar accuracy and precision.\nSee the full code and dataset in my GitHub repository.\n\n\n\nChurn directly reduces active-user counts and growth. The Waze stakeholders want a model that flags users at risk of churning so the product team can test retention interventions (targeted messaging, incentives, product improvements, etc.). The project aims to produce both a predictive model and actionable feature insights that inform product decisions and prioritization.\n\n\n\nSource & scope: Raw usage logs from the Waze app (session counts, drive summaries, timestamps, app interactions). Exact labels and extraction steps are documented in the jupyter notebook.\nSamples & features: The notebook builds several engineered features. Six engineered features appear among the top-10 most important onces for the targer: km_per_hour, percent_sessions_in_last_month, total_sessions_per_day, percent_of_drives_to_favorite, km_per_drive, km_per_driving_day. These engineered aggregates substantially improved signal compared to raw columns.\n\n\n\nModels trained:\n\nRandom Forest (baseline ensemble)\nXGBoost (final / champion model) Both models were compared via the validation set and then evaluated on the held-out test set.\n\nWhy ensembles were chosen: Tree ensembles require less heavy preprocessing than a logistic-regression. However, they are less interpretable, so feature engineering + model-agnostic interpretation tools were used to understand what matters most. The resulting classification is not great, but it is clerly better than what was found in simple regression models.\n\n\n\n\nEngineered features dominate the top-10 importance list (6 of the top 10). The single-most valuable signals come from km driven, session frequency, drives to favorite locations. It is advised to use these these as starting points for targeted product interventions.\n\n\n\n\nEnsemble tree models (XGBoost) improved detection of churn over logistic regression (conducted earlier) and highlighted useful engineered features. However, current data is insufficient to consistently predict churn at high recall or precision. Richer drive-level data and more granular interaction information are likely required to reach actionable performance. Recommendations are to collect more detailed per-drive information (drive times, geo-locations, in-app interactions) and to re-examine thee analyses."
+  },
+  {
+    "objectID": "waze_userchurn.html#overview",
+    "href": "waze_userchurn.html#overview",
+    "title": "User Churn Analysis",
+    "section": "",
+    "text": "The goal of this project is to predict monthly user churn for the Waze driving app (users who uninstall or stop using the app) and to identify the features that best separate churners from retained users. The analysis compares Random Forest and XGBoost classifiers trained on a number of collected and engineered features. The XGBoost model fit the data better than the Random Forest and achieves an improved recall, while maintaining similar accuracy and precision.\nSee the full code and dataset in my GitHub repository."
+  },
+  {
+    "objectID": "waze_userchurn.html#business-context",
+    "href": "waze_userchurn.html#business-context",
+    "title": "User Churn Analysis",
+    "section": "",
+    "text": "Churn directly reduces active-user counts and growth. The Waze stakeholders want a model that flags users at risk of churning so the product team can test retention interventions (targeted messaging, incentives, product improvements, etc.). The project aims to produce both a predictive model and actionable feature insights that inform product decisions and prioritization."
+  },
+  {
+    "objectID": "waze_userchurn.html#data",
+    "href": "waze_userchurn.html#data",
+    "title": "User Churn Analysis",
+    "section": "",
+    "text": "Source & scope: Raw usage logs from the Waze app (session counts, drive summaries, timestamps, app interactions). Exact labels and extraction steps are documented in the jupyter notebook.\nSamples & features: The notebook builds several engineered features. Six engineered features appear among the top-10 most important onces for the targer: km_per_hour, percent_sessions_in_last_month, total_sessions_per_day, percent_of_drives_to_favorite, km_per_drive, km_per_driving_day. These engineered aggregates substantially improved signal compared to raw columns."
+  },
+  {
+    "objectID": "waze_userchurn.html#modeling-and-evaluation",
+    "href": "waze_userchurn.html#modeling-and-evaluation",
+    "title": "User Churn Analysis",
+    "section": "",
+    "text": "Models trained:\n\nRandom Forest (baseline ensemble)\nXGBoost (final / champion model) Both models were compared via the validation set and then evaluated on the held-out test set.\n\nWhy ensembles were chosen: Tree ensembles require less heavy preprocessing than a logistic-regression. However, they are less interpretable, so feature engineering + model-agnostic interpretation tools were used to understand what matters most. The resulting classification is not great, but it is clerly better than what was found in simple regression models."
+  },
+  {
+    "objectID": "waze_userchurn.html#feature-importance-key-drivers",
+    "href": "waze_userchurn.html#feature-importance-key-drivers",
+    "title": "User Churn Analysis",
+    "section": "",
+    "text": "Engineered features dominate the top-10 importance list (6 of the top 10). The single-most valuable signals come from km driven, session frequency, drives to favorite locations. It is advised to use these these as starting points for targeted product interventions."
+  },
+  {
+    "objectID": "waze_userchurn.html#conclusion-and-limitations",
+    "href": "waze_userchurn.html#conclusion-and-limitations",
+    "title": "User Churn Analysis",
+    "section": "",
+    "text": "Ensemble tree models (XGBoost) improved detection of churn over logistic regression (conducted earlier) and highlighted useful engineered features. However, current data is insufficient to consistently predict churn at high recall or precision. Richer drive-level data and more granular interaction information are likely required to reach actionable performance. Recommendations are to collect more detailed per-drive information (drive times, geo-locations, in-app interactions) and to re-examine thee analyses."
   }
 ]
